@@ -1,0 +1,14 @@
+#+STARTUP: showall indent
+#+PROPERTY: header-args:R :results output :session *R:preproc4me*
+
+* preproc4me
+
+A collection of =data.frame= preprocessing functions for me.
+
+** Installation
+
+=preproc4me= is not available through CRAN. To install from github, use:
+
+#+begin_src R
+devtools::install_github("five-dots/preproc4me")
+#+end_src
