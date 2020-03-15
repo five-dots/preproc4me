@@ -46,6 +46,10 @@ as_dummy <- function(df = NULL, formula = NULL, one_hot = FALSE,
 #' @export
 as_ordinalscore <- function(df = NULL, formula = NULL, convert = as.numeric) {
 
+  a4me::a_class(df, "data.frame")
+  a4me::a_class(formula, "formula")
+  a4me::a_class(convert, "function")
+
   ord_df <- dplyr::select_if(df, is.ordered)
   ord_cols <- colnames(ord_df)
 
