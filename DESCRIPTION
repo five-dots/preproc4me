@@ -1,0 +1,21 @@
+Package: preproc4me
+Title: Preprocessing for Me
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Shun",
+           family = "Asai",
+           role = c("aut", "cre"),
+           email = "syun.asai@gmail.com")
+Description: Libraries for preprocessing data.frame.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    a4me,
+    dplyr,
+    magrittr,
+    recipes,
+    rlang,
+Suggests: 
+    testthat
+RoxygenNote: 7.0.2
